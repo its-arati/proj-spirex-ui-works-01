@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav-logo">
+                <h1>Nature Cure</h1>
+            </div>
+            <div class="nav-links">
+                <ul id="menu">
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Appointment</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="nav-btn">
+                <img src="./profile.jpg">
+                <button>Login</button>
+                <button>Register</button>
+                <i class="fa fa-bars" id="menuIcon" onclick="openMenu()"></i>
+                <i class="fa fa-times-circle" id="closeIcon" onclick="closeMenu()"></i>
+            </div>
+        </nav>
+    </header>
+    <script src="./js/navbar.js"></script>
+
+    <main class="quote-section">
+        <section id="quote-container">
+            <div class="quote-card">
+                <blockquote>
+                    "Nature itself is the best physician. Within each of us lies a natural healing force, which is the greatest force in getting well."
+                </blockquote>
+                <figcaption>— <cite>Hippocrates</cite></figcaption>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
