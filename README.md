@@ -18,3 +18,6 @@ Current task pages:
 
 - [Day 01 task README](day01/README.md)
 - [Day 01 page](day01/index.html)
+- [Day 02 page](day02/index.html)
+- [Day 03 task README](day03/README.md)
+- [Day 03 page](day03/index.html)
