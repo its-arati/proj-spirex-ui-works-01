@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Waste Management Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <div class="sidebar-overlay" id="overlay"></div>
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fa-solid fa-trash-can-arrow-up"></i>
+                    <h2>Binopt</h2>
+                </div>
+                <i class="fa-solid fa-xmark" id="closeMenu"></i>
+            </div>
+
+            <nav class="nav-links">
+                <a href="#" class="active"><i class="fa-solid fa-chart-pie"></i>Dashboard</a>
+                <a href="#"><i class="fa-solid fa-dumpster"></i>Bin Status</a>
+                <a href="#"><i class="fa-solid fa-recycle"></i>Recycling Status</a>
+                <a href="#"><i class="fa-solid fa-truck-field"></i>Routes</a>
+                <a href="#"><i class="fa-solid fa-gear"></i>Settings</a>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-header">
+                <i class="fa-solid fa-bars" id="openMenu"></i>
+                <h1>Smart Waste Management Dashboard</h1>
+                <div class="system-time" id="live-clock">Loading system metrics...</div>
+            </header>
+
+            <section class="kpi-grid">
+                <div class="card">
+                    <div class="card-icon blue-icon">
+                        <i class="fa-solid fa-dumpster"></i>
+                    </div>
+                    <div class="card-data">
+                        <h3>142</h3>
+                        <p>Total Bins</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon red-icon">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <div class="card-data">
+                        <h3 id="full-bins-count">3</h3>
+                        <p>Full Bins (>80%)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon purple-icon">
+                        <i class="fa-solid fa-truck-field"></i>
+                    </div>
+                    <div class="card-data">
+                        <h3>94%</h3>
+                        <p>Collection Rate</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon green-icon">
+                        <i class="fa-solid fa-recycle"></i>
+                    </div>
+                    <div class="card-data">
+                        <h3>1.2 Tons</h3>
+                        <p>Recycled Today</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="data-layout-grid">
+                <div class="chart-column">
+                    <div class="widget-card">
+                        <h3>Weekly Collection Trend</h3>
+                        <canvas id="weeklyTrendChart"></canvas>
+                    </div>
+                    <div class="widget-card">
+                        <h3>Waste Distribution Mix</h3>
+                        <div class="doughnut-wrapper">
+                            <canvas id="wasteDistributionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget-card status-column">
+                <h3>Area-wise Fill Status</h3>
+                <div class="area-list" id="area-status-list">
+
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
