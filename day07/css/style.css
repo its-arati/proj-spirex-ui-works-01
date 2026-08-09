@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://images.stockcake.com/public/1/9/9/199254fa-5aa1-40fb-939d-74f93858401e_large/moonlit-cherry-blossoms-stockcake.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+h1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    object-fit: cover;
+    display: block;
+}
+.picker-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.colorpicker {
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#colorPicker {
+    width: 120px;
+    height: 80px;
+    border-radius: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#generateBtn {
+    background-color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: transform 0.2s;
+    color: blue;
+}
+
+#generateBtn:hover {
+    transform: scale(1.05);
+}
+
+#colorPalette {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.color-card {
+    background-color: limegreen;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.color-card:hover {
+    transform: translateY(-5px);
+}
+
+.color-code {
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
