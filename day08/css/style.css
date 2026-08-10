@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0dKpE7PZxRM88qs31qY8pF1e9Ya24qJhCLVau6QxyuefKRS4ymIR4f4&s=10');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 16px; 
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 60vh;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+.input-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 30px;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 1.5px solid #f2f2f2;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+}
+
+.input-box label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.input-box input {
+    border: none;
+    border-bottom: solid 2px black;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    width: 5rem;
+}
+
+.result-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bmni-category {
+    font-weight: 600;
+}
+.bmi-range-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1rem;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.bmi-range-group section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.bmi-range-group section .bmi-line {
+    width: 100%;
+    height: 6px;
+}
+.underweight .bmi-line {
+    background: blue;
+}
+.normal .bmi-line {
+    background: green;
+}
+.overweight .bmi-line {
+    background: rgb(255, 140, 0);
+}
+.obese .bmi-line {
+    background: red;
+}
+
+.bmi-range-group section .bmi-label {
+    font-weight: 500;
+}
+
+.bmi-indicator {
+    width: 3px;
+    height: 1.5rem;
+    background: black;
+    position: absolute;
+    top: -17%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    left: 0%;
+    transition: 300ms;
+}
+
+.button-group {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.button-group button {
+    width: 100%;
+    border: none;
+    padding: 0.8rem 0;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 300ms;
+    color: white;
+}
+
+.button-group button:active {
+    transform: scale(0.95);
+}
+
+.reset-button {
+    background: black;
+}
+.calculate-button {
+    background: blue;
+}
