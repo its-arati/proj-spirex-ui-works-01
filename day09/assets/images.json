@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Nature 1",
+    "description": "A nature scene capturing scenic outdoor elements.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpCJF1KbuZGI7gFz9NevJgt9hMAOL4-2h2FHBAitnOTRLz4pMdwU3nnEP&s=10",
+    "tags": ["nature", "landscape", "outdoors"]
+  },
+  {
+    "id": 2,
+    "title": "Nature 2",
+    "description": "A natural landscape view showcasing outdoor greenery and scenery.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV1KtYqvIHaAvpdu_TgwivL5y5VJyHxsAouqmPR3v_vmOx5Pss6-mz0C0&s=10",
+    "tags": ["nature", "landscape", "scenery"]
+  },
+  {
+    "id": 3,
+    "title": "Nature 3",
+    "description": "Smoky Mountains nature view featuring scenic mountain ranges.",
+    "url": "https://wallartprints-bt.myshopify.com/cdn/shop/files/smoky-mountains-nature-pictures-98808177.jpg",
+    "tags": ["nature", "landscape", "mountains"]
+  },
+  {
+    "id": 4,
+    "title": "Nature 4",
+    "description": "A vivid outdoor nature picture showing environment details.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7CBJorho6YGePkRtqPY5gj9l2RwFyfdqGTNlddvpwwLiN5b6RyrkbjMJo&s=10",
+    "tags": ["nature", "landscape", "outdoors"]
+  },
+  {
+    "id": 5,
+    "title": "Car 1",
+    "description": "An automotive shot showcasing modern vehicle design.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQosf1hrtoQs1fihL7zSmtEIWGAaFVZJNxZyL1VaYphYM_KGc5qHLFz-WlG&s=10",
+    "tags": ["car", "automotive", "vehicle"]
+  },
+  {
+    "id": 6,
+    "title": "Car 2",
+    "description": "Peugeot Inception concept car highlighting futuristic automotive technology.",
+    "url": "https://media.wired.com/photos/63b8d0a771c6b526845f15a6/3:2/w_2400,h_1600,c_limit/CES-2023-PEUGEOT_INCEPTION_CONCEPT_2301CN202.jpg",
+    "tags": ["car", "concept car", "automotive", "vehicle"]
+  },
+  {
+    "id": 7,
+    "title": "Animal 1",
+    "description": "A close-up photograph of a creature in its habitat.",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpU5LDiwrjc5b_GONZP3ofx7Fy-gIEIV8X3cdMJ6PwnJGTI6_NPTimA-n&s=10",
+    "tags": ["animal", "wildlife", "fauna"]
+  },
+  {
+    "id": 8,
+    "title": "Animal 2",
+    "description": "Wild animal photographed in a natural environment.",
+    "url": "https://images.unsplash.com/photo-1592670130429-fa412d400f50?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2lsZCUyMGFuaW1hbHxlbnwwfHwwfHx8MA%3D%3D",
+    "tags": ["animal", "wildlife", "elephant"]
+  },
+  {
+    "id": 9,
+    "title": "Animal 3",
+    "description": "A Bengal tiger resting peacefully outdoors.",
+    "url": "https://a-z-animals.com/media/tiger_laying_hero_background.jpg",
+    "tags": ["animal", "tiger", "wildlife", "predator"]
+  },
+  {
+    "id": 10,
+    "title": "Bird 1",
+    "description": "A male Painted Bunting showcasing colorful plumage.",
+    "url": "https://academy.allaboutbirds.org/wp-content/uploads/2015/07/Painted_Bunting_male_Birdhsare_Tim_Hopwood.jpg",
+    "tags": ["bird", "painted bunting", "wildlife"]
+  },
+  {
+    "id": 11,
+    "title": "Bird 2",
+    "description": "A small bird species captured up close.",
+    "url": "https://supertails.com/cdn/shop/articles/bird-breed_2cd7d88f-2438-4acf-9bd8-64c561ae55ae.jpg?v=1747132798",
+    "tags": ["bird", "pet", "wildlife"]
+  },
+  {
+    "id": 12,
+    "title": "Bird 3",
+    "description": "A Zebra Finch bird standing against a clean backdrop.",
+    "url": "https://cdn.britannica.com/10/250610-050-BC5CCDAF/Zebra-finch-Taeniopygia-guttata-bird.jpg",
+    "tags": ["bird", "zebra finch", "wildlife", "fauna"]
+  },
+
+  
+  {
+    "id": 13,
+    "title": "Autumn Mountains and Lake",
+    "description": "A scenic landscape featuring colorful fall trees along a calm mountain lake.",
+    "url": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=600&quality=80",
+    "tags": ["nature", "landscape", "mountains", "autumn"]
+  },
+  {
+    "id": 14,
+    "title": "Water Lily on Pond",
+    "description": "A close-up view of a white water lily flower with water droplets on green pads.",
+    "url": "https://static.vecteezy.com/system/resources/thumbnails/049/855/347/small/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg",
+    "tags": ["nature", "flower", "water", "lily"]
+  },
+  {
+    "id": 15,
+    "title": "Sunset over Rocky Shore",
+    "description": "A vibrant golden sunset illuminating a rocky shoreline and distant peaks.",
+    "url": "https://static.vecteezy.com/system/resources/thumbnails/013/951/373/small/awesome-nature-landscape-beautiful-scene-with-high-tatra-mountain-peaks-stones-in-mountain-lake-calm-lake-water-reflection-colorful-sunset-sky-amazing-nature-background-autumn-adventure-hiking-photo.jpg",
+    "tags": ["nature", "sunset", "landscape", "mountain"]
+  },
+  {
+    "id": 16,
+    "title": "Wildflower Meadow at Sunset",
+    "description": "Pink wildflowers growing in a field against a warm evening sky.",
+    "url": "https://picjumbo.com/wp-content/uploads/beautiful-nature-wallpaper-spring-flowers-mountain-sunset-free-image.jpg",
+    "tags": ["nature", "sunset", "flowers", "meadow"]
+  },
+  {
+    "id": 17,
+    "title": "Sunlit Rolling Hills",
+    "description": "Golden sunlight streaming over lush green hills and grassy landscapes.",
+    "url": "https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=",
+    "tags": ["nature", "landscape", "sunlight", "hills"]
+  }
+]

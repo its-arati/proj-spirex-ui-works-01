@@ -1,0 +1,46 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Segoe UI', Verdana, sans-serif;
+     padding: 20px;
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0dKpE7PZxRM88qs31qY8pF1e9Ya24qJhCLVau6QxyuefKRS4ymIR4f4&s=10');
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100vh;
+ }
+
+ .gallery {
+    max-height: 80vh;
+    overflow-y: scroll;
+ }
+
+ .gallery > div {
+    width: initial;
+ }
+
+ .gallery-image {
+    max-height: 12em;
+ }
+
+ .img-tile {
+    margin: 0.5em 0.7em;
+    border: 0.4em solid white;
+    padding: 0px;
+    box-shadow: 0 0 12px rgba(31, 31, 31, 0.775);
+    transition: box-shadow 0.2s ease;
+ }
+
+.img-tile:hover {
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.9);
+    transform: scale(105%);
+ }
+
+ .preview-image {
+    width: 100%;
+    max-height: 80vh;
+ }
