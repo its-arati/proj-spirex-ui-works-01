@@ -1,0 +1,191 @@
+{
+  "currency": "INR",
+  "plans": [
+    {
+      "id": "plan_basic",
+      "title": "Basic",
+      "subTitle": "The Daily Energy Boost",
+      "tagline": "Budget-friendly daily TV and fresh farm fuel.",
+      "isPopular": false,
+      "pricing": {
+        "monthly": 1650,
+        "annual": 17800,
+        "annualSavingsPercent": 10
+      },
+      "features": [
+        {
+          "id": "feat_b1",
+          "cardLabel": "3 daily essential fruits",
+          "modalDescription": "Get a curated daily basket containing three fresh, ready-to-eat seasonal fruits like apples, bananas, and oranges.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_b2",
+          "cardLabel": "100% direct farm sourcing",
+          "modalDescription": "All produce is harvested daily and sourced directly from regional partner farms to support local agriculture.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_b3",
+          "cardLabel": "Guaranteed 7 AM delivery",
+          "modalDescription": "Fresh fruit baskets are dropped at your doorstep every single morning before 7:00 AM, rain or shine.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_b4",
+          "cardLabel": "150+ news and regional channels",
+          "modalDescription": "Access over 150 television channels focusing on local news, regional soap operas, and state broadcasts.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_b5",
+          "cardLabel": "Standard HD picture quality",
+          "modalDescription": "Enjoy crisp everyday viewing quality with our standard 1080i high-definition satellite feed transmissions.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_b6",
+          "cardLabel": "Basic free sports matches",
+          "modalDescription": "Watch all government-mandated and free-to-air local live sporting matches without any extra network fees.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_b7",
+          "cardLabel": "Simple reliable TV setup box",
+          "modalDescription": "Includes a durable, easy-to-use digital standard satellite receiver box with standard installation included.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_b8",
+          "cardLabel": "1 mobile device streaming app",
+          "modalDescription": "Download our companion mobile application to stream live television channels on one smartphone device.",
+          "isHighlighted": false
+        }
+      ]
+    },
+    {
+      "id": "plan_pro",
+      "title": "Standard",
+      "subTitle": "The Family Fitness Pack",
+      "tagline": "Value-packed nutrition and entertainment for families.",
+      "isPopular": true,
+      "pricing": {
+        "monthly": 2750,
+        "annual": 29700,
+        "annualSavingsPercent": 10
+      },
+      "features": [
+        {
+          "id": "feat_p1",
+          "cardLabel": "5 family-sized daily fruits",
+          "modalDescription": "An upgraded daily basket containing five assorted lifestyle fruits plus an exciting rotating surprise fruit option weekly.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_p2",
+          "cardLabel": "Chemical-free eco-wash cleaning",
+          "modalDescription": "All fruits undergo a specialized medical-grade sonic ozone wash to fully remove surface pesticides and bacteria safely.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_p3",
+          "cardLabel": "Chilled doorstep delivery",
+          "modalDescription": "Baskets are transported in custom insulated cold-chain vehicles to keep delicate fruits crisp until physical drop-off.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_p4",
+          "cardLabel": "350+ movies and kids channels",
+          "modalDescription": "Expands your viewing library to 350 channels, adding complete kids' cartoon networks, music, and dedicated premium movie screens.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_p5",
+          "cardLabel": "Theater-like Full HD and audio",
+          "modalDescription": "Upgrade to absolute crystal clear 1080p presentation alongside immersive 5.1 Dolby Digital surround sound support.",
+          "isHighlighted": true
+        },
+        {
+          "id": "feat_p6",
+          "cardLabel": "Major live cricket networks",
+          "modalDescription": "Never miss a match with full access to premium domestic and international live cricket tournament sports networks.",
+          "isHighlighted": true
+        },
+        {
+          "id": "feat_p7",
+          "cardLabel": "Live TV recording hardware",
+          "modalDescription": "Receive an intelligent media box that allows users to instantly pause, rewind, or schedule record live television.",
+          "isHighlighted": true
+        },
+        {
+          "id": "feat_p8",
+          "cardLabel": "Regional OTT app streaming",
+          "modalDescription": "Unlocks bundled digital access to popular regional streaming video-on-demand platforms directly through your accounts.",
+          "isHighlighted": false
+        }
+      ]
+    },
+    {
+      "id": "plan_premium",
+      "title": "Premium",
+      "subTitle": "The Exotic Wellness Club",
+      "tagline": "Elite luxury pairing premium entertainment with elite nutrition.",
+      "isPopular": false,
+      "pricing": {
+        "monthly": 5000,
+        "annual": 54000,
+        "annualSavingsPercent": 10
+      },
+      "features": [
+        {
+          "id": "feat_pr1",
+          "cardLabel": "Certified organic exotic fruits",
+          "modalDescription": "Indulge in imported ultra-premium organic berries, dragon fruits, avocados, paired with artisanal honey and dry nut selections.",
+          "isHighlighted": true
+        },
+        {
+          "id": "feat_pr2",
+          "cardLabel": "Global premium boutique farms",
+          "modalDescription": "Sourced entirely from certified organic luxury estates and international partners adhering to strict fair-trade cultivation standards.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_pr3",
+          "cardLabel": "Pause-anytime flexible vacation mode",
+          "modalDescription": "Manage deliveries on the go. Temporarily halt your fruit deliveries via our smart app whenever you travel away.",
+          "isHighlighted": true
+        },
+        {
+          "id": "feat_pr4",
+          "cardLabel": "450+ all-inclusive global channels",
+          "modalDescription": "Unrestricted tier access to every single station available, spanning premium global news, niche lifestyle channels, and international programs.",
+          "isHighlighted": true
+        },
+        {
+          "id": "feat_pr5",
+          "cardLabel": "Ultra HD 4K video realism",
+          "modalDescription": "Experience ultra-high-definition resolution depth up to 2160p for unbelievable cinema-grade screen color fidelity and sharpness.",
+          "isHighlighted": true
+        },
+        {
+          "id": "feat_pr6",
+          "cardLabel": "Every premium sports network",
+          "modalDescription": "Unlocks every single global sporting stream, including international soccer leagues, grand slams, motorsports, and combat fighting events.",
+          "isHighlighted": false
+        },
+        {
+          "id": "feat_pr7",
+          "cardLabel": "Voice-controlled Android Smart Hub",
+          "modalDescription": "An elite hybrid box featuring built-in Wi-Fi, Chromecast capabilities, Google Play Store app downloads, and Google Assistant voice remotes.",
+          "isHighlighted": true
+        },
+        {
+          "id": "feat_pr8",
+          "cardLabel": "Netflix Prime Hotstar included",
+          "modalDescription": "Full subscription accounts to top global video streaming giants integrated cleanly into your unified monthly subscription bill.",
+          "isHighlighted": false
+        }
+      ]
+    }
+  ]
+}
