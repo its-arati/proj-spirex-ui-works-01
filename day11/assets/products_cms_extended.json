@@ -1,0 +1,250 @@
+{
+  "site_metadata": {
+    "title": "Aura Commerce - Expanded E-Commerce Catalog",
+    "currency": "INR",
+    "currency_symbol": "₹",
+    "categories": [
+      "Short Kurtis",
+      "Laptops & Computing",
+      "PC Components",
+      "Electronics & Wearables",
+      "Footwear"
+    ]
+  },
+  "products": [
+    {
+      "id": "PROD-A103",
+      "name": "Geometric Print Cotton Straight Short Kurti",
+      "slug": "geometric-print-cotton-straight-short-kurti",
+      "category": "Short Kurtis",
+      "price": 549,
+      "original_price": 1199,
+      "discount_percentage": 54,
+      "rating": 4.5,
+      "reviews_count": 215,
+      "in_stock": true,
+      "stock_quantity": 50,
+      "images": [
+        "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800",
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800",
+        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800"
+      ],
+      "description": "Modern geometric print short tunic with notch neck and 3/4th sleeves. Breathable fabric tailored for everyday comfort.",
+      "attributes": {
+        "fabric": "100% Cotton",
+        "fit": "Straight Cut",
+        "sleeve_length": "3/4 Sleeves",
+        "neck_type": "Notch Neck",
+        "pattern": "Geometric",
+        "care": "Machine wash cold"
+      },
+      "tags": [
+        "geometric",
+        "cotton",
+        "casual",
+        "workwear",
+        "kurti"
+      ],
+      "variants": [
+        {
+          "size": "S",
+          "sku": "GEO-S-BLUE",
+          "stock": 15
+        },
+        {
+          "size": "M",
+          "sku": "GEO-M-BLUE",
+          "stock": 20
+        },
+        {
+          "size": "L",
+          "sku": "GEO-L-BLUE",
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "PROD-A104",
+      "name": "A-Line Rayon Ikat Short Tunic",
+      "slug": "a-line-rayon-ikat-short-tunic",
+      "category": "Short Kurtis",
+      "price": 599,
+      "original_price": 1299,
+      "discount_percentage": 53,
+      "rating": 4.7,
+      "reviews_count": 140,
+      "in_stock": true,
+      "stock_quantity": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800"
+      ],
+      "description": "Soft rayon Ikat printed tunic top featuring front buttons and gather details.",
+      "attributes": {
+        "fabric": "Viscose Rayon",
+        "fit": "A-Line",
+        "sleeve_length": "Full Sleeves",
+        "neck_type": "Shirt Collar",
+        "pattern": "Ikat Print",
+        "care": "Gentle hand wash"
+      },
+      "tags": [
+        "ikat",
+        "rayon",
+        "boho",
+        "fusion",
+        "tunic"
+      ],
+      "variants": [
+        {
+          "size": "M",
+          "sku": "IKAT-M-RED",
+          "stock": 20
+        },
+        {
+          "size": "L",
+          "sku": "IKAT-L-RED",
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "PROD-A203",
+      "name": "HP Pavilion Plus 14 Intel Core i7 13th Gen",
+      "slug": "hp-pavilion-plus-14-intel-core-i7",
+      "category": "Laptops & Computing",
+      "price": 79990,
+      "original_price": 95000,
+      "discount_percentage": 15,
+      "rating": 4.7,
+      "reviews_count": 310,
+      "in_stock": true,
+      "stock_quantity": 12,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800",
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800"
+      ],
+      "description": "Premium 2.8K OLED display laptop with Intel Core i7-13700H, 16GB LPDDR5, 1TB NVMe SSD, and aluminum chassis.",
+      "attributes": {
+        "processor": "Intel Core i7-13700H (14 Cores, up to 5.0 GHz)",
+        "ram": "16GB LPDDR5X 5200MHz",
+        "storage": "1TB M.2 PCIe Gen4 NVMe SSD",
+        "display": "14-inch 2.8K (2880 x 1800) 120Hz OLED",
+        "graphics": "Intel Iris Xe Graphics",
+        "weight": "1.4 kg",
+        "os": "Windows 11 Pro"
+      },
+      "tags": [
+        "laptop",
+        "hp",
+        "oled",
+        "intel-i7",
+        "creator"
+      ],
+      "variants": [
+        {
+          "color": "Natural Silver",
+          "sku": "HP-PAV14-SLVR",
+          "stock": 8
+        },
+        {
+          "color": "Moonlight Blue",
+          "sku": "HP-PAV14-BLUE",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": "PROD-A303",
+      "name": "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz Expo/XMP RAM",
+      "slug": "kingston-fury-beast-32gb-ddr5-6000mhz",
+      "category": "PC Components",
+      "price": 10490,
+      "original_price": 14500,
+      "discount_percentage": 27,
+      "rating": 4.9,
+      "reviews_count": 420,
+      "in_stock": true,
+      "stock_quantity": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1562976540-1502c2145186?w=800",
+        "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800"
+      ],
+      "description": "Next-gen DDR5 memory with aggressive heat spreader design and AMD EXPO / Intel XMP 3.0 profile support.",
+      "attributes": {
+        "capacity": "32 GB (2 x 16GB)",
+        "type": "DDR5 SDRAM",
+        "speed": "6000 MHz",
+        "latency_cls": "CL36 (36-38-38-80)",
+        "voltage": "1.35V",
+        "form_factor": "288-Pin UDIMM"
+      },
+      "tags": [
+        "ram",
+        "ddr5",
+        "kingston",
+        "expo",
+        "xmp",
+        "gaming"
+      ],
+      "variants": [
+        {
+          "color": "RGB Black",
+          "sku": "KF560C36BBEAK2-32",
+          "stock": 25
+        },
+        {
+          "color": "Non-RGB Black",
+          "sku": "KF560C36BBK2-32",
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "id": "PROD-A401",
+      "name": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+      "slug": "sony-wh-1000xm5-wireless-headphones",
+      "category": "Electronics & Wearables",
+      "price": 26990,
+      "original_price": 34990,
+      "discount_percentage": 22,
+      "rating": 4.8,
+      "reviews_count": 1850,
+      "in_stock": true,
+      "stock_quantity": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800"
+      ],
+      "description": "Industry-leading Active Noise Cancellation with Auto NC Optimizer, 30-hour battery life, and crystal-clear hands-free calling.",
+      "attributes": {
+        "connectivity": "Bluetooth 5.2 / 3.5mm Aux",
+        "battery_life": "Up to 30 hours (ANC On)",
+        "charging": "USB-C Quick Charge (3 mins = 3 hours)",
+        "weight": "250g",
+        "noise_cancellation": "Dual Processor Integrated V1 + QN1"
+      },
+      "tags": [
+        "audio",
+        "sony",
+        "headphones",
+        "anc",
+        "bluetooth"
+      ],
+      "variants": [
+        {
+          "color": "Black",
+          "sku": "SONY-XM5-BLK",
+          "stock": 12
+        },
+        {
+          "color": "Silver",
+          "sku": "SONY-XM5-SLV",
+          "stock": 10
+        }
+      ]
+    }
+  ]
+}

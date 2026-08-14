@@ -1,0 +1,396 @@
+{
+  "site_metadata": {
+    "title": "Amazon Tech Catalog - Laptops Demo Store",
+    "currency": "INR",
+    "currency_symbol": "₹",
+    "categories": [
+      "Budget Laptops",
+      "Thin & Light Laptops",
+      "Business & Productivity",
+      "Premium AI & Performance"
+    ]
+  },
+  "products": [
+    {
+      "id": "PROD-101",
+      "name": "HP 15 AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD Laptop",
+      "slug": "hp-15-amd-ryzen-3-7320u-8gb-512gb-ssd-fhd-silver",
+      "category": "Thin & Light Laptops",
+      "price": 48990,
+      "original_price": 48990,
+      "discount_percentage": 0,
+      "rating": 4.2,
+      "reviews_count": 132,
+      "in_stock": true,
+      "stock_quantity": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "The HP 15 is powered by an AMD Ryzen 3 7320U processor paired with high-speed LPDDR5 RAM and snappy NVMe SSD storage. Built with a 15.6-inch anti-glare micro-edge display and an FHD camera featuring a physical privacy shutter for seamless remote work.",
+      "attributes": {
+        "processor": "AMD Ryzen 3 7320U",
+        "ram": "8GB LPDDR5",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD Anti-Glare Micro-Edge",
+        "operating_system": "Windows 11 Home + M365 Basic",
+        "graphics": "AMD Radeon Graphics",
+        "weight": "1.59 kg"
+      },
+      "tags": ["hp", "ryzen 3", "thin and light", "windows 11", "office laptop"],
+      "variants": [
+        {
+          "sku": "HP-15-FC0500AU-SLV",
+          "color": "Natural Silver",
+          "storage_config": "512GB SSD",
+          "stock": 40
+        }
+      ]
+    },
+    {
+      "id": "PROD-102",
+      "name": "Acer Aspire One AMD Ryzen 5-40 Thin & Light Laptop",
+      "slug": "acer-aspire-one-amd-ryzen-5-40-8gb-256gb-ssd-pure-silver",
+      "category": "Thin & Light Laptops",
+      "price": 40990,
+      "original_price": 84999,
+      "discount_percentage": 52,
+      "rating": 4.0,
+      "reviews_count": 5,
+      "in_stock": true,
+      "stock_quantity": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Engineered for everyday multitasking on a budget, this compact 14.0-inch Acer Aspire One notebook offers reliable quad-core efficiency and fast LPDDR5 memory. Featuring a lightweight chassis at just 1.48kg for effortless daily commuting.",
+      "attributes": {
+        "processor": "AMD Ryzen 5-40",
+        "ram": "8GB LPDDR5",
+        "storage": "256GB SSD",
+        "display": "14.0-inch WXGA Display",
+        "operating_system": "Windows 11 Home",
+        "graphics": "Integrated AMD Graphics",
+        "weight": "1.48 kg"
+      },
+      "tags": ["acer", "aspire one", "budget laptop", "compact", "ryzen 5"],
+      "variants": [
+        {
+          "sku": "ACR-A114-43-256-SLV",
+          "color": "Pure Silver",
+          "storage_config": "256GB SSD",
+          "stock": 25
+        }
+      ]
+    },
+    {
+      "id": "PROD-103",
+      "name": "Dell Vostro 3530 13th Gen Intel Core i5-1334U Business Laptop",
+      "slug": "dell-vostro-3530-13th-gen-core-i5-1334u-16gb-512gb-grey",
+      "category": "Business & Productivity",
+      "price": 61990,
+      "original_price": 73163,
+      "discount_percentage": 15,
+      "rating": 3.8,
+      "reviews_count": 375,
+      "in_stock": true,
+      "stock_quantity": 55,
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Designed for demanding business workflows, the Dell Vostro 3530 packs a 10-core 13th Gen Intel Core i5 processor alongside 16GB dual-channel RAM. Equipped with enterprise security features and an expansive 15.6-inch anti-glare display.",
+      "attributes": {
+        "processor": "Intel Core i5-1334U (13th Gen)",
+        "ram": "16GB DDR4",
+        "storage": "512GB NVMe SSD",
+        "display": "15.6-inch FHD Anti-Glare (1920x1080)",
+        "operating_system": "Windows 11 + MSO 2024",
+        "security": "12-Month McAfee Included",
+        "weight": "1.66 kg"
+      },
+      "tags": ["dell", "vostro", "intel i5", "business laptop", "16gb ram"],
+      "variants": [
+        {
+          "sku": "DEL-VOS-3530-GRY",
+          "color": "Carbon Grey",
+          "storage_config": "512GB SSD",
+          "stock": 55
+        }
+      ]
+    },
+    {
+      "id": "PROD-104",
+      "name": "Apple MacBook Neo 13″ A18 Pro Chip Liquid Retina Laptop",
+      "slug": "apple-2026-macbook-neo-13-a18-pro-chip-8gb-256gb-indigo",
+      "category": "Thin & Light Laptops",
+      "price": 72990,
+      "original_price": 79900,
+      "discount_percentage": 9,
+      "rating": 4.8,
+      "reviews_count": 185,
+      "in_stock": true,
+      "stock_quantity": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Built from the ground up for Apple Intelligence and ultra-portable efficiency with the next-gen A18 Pro architecture. Features a stunning 13-inch Liquid Retina panel, 1080p FaceTime HD camera, and silent fanless cooling.",
+      "attributes": {
+        "processor": "Apple A18 Pro Chip with Neural Engine",
+        "ram": "8GB Unified Memory",
+        "storage": "256GB Unified SSD",
+        "display": "13.3-inch Liquid Retina Display",
+        "operating_system": "macOS",
+        "camera": "1080p FaceTime HD Camera",
+        "weight": "1.24 kg"
+      },
+      "tags": ["apple", "macbook neo", "a18 pro", "apple intelligence", "ultrabook"],
+      "variants": [
+        {
+          "sku": "APL-MBN-IND-256",
+          "color": "Indigo",
+          "storage_config": "256GB SSD",
+          "stock": 18
+        },
+        {
+          "sku": "APL-MBN-SLV-256",
+          "color": "Silver",
+          "storage_config": "256GB SSD",
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "id": "PROD-105",
+      "name": "Apple MacBook Pro 14.2″ M5 Max Chip (36GB Unified Memory, 2TB SSD)",
+      "slug": "apple-2026-macbook-pro-14-m5-max-18-core-cpu-36gb-2tb-space-black",
+      "category": "Premium AI & Performance",
+      "price": 464490,
+      "original_price": 499900,
+      "discount_percentage": 7,
+      "rating": 5.0,
+      "reviews_count": 1,
+      "in_stock": true,
+      "stock_quantity": 8,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1629429408209-1f912961dbd8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "A powerhouse built for AI model training and intensive 3D rendering featuring an 18-core CPU and 32-core GPU M5 Max silicon. Outfitted with an expansive Liquid Retina XDR screen and ultra-fast 36GB unified memory bandwidth.",
+      "attributes": {
+        "processor": "Apple M5 Max (18-Core CPU, 32-Core GPU)",
+        "ram": "36GB Unified Memory",
+        "storage": "2TB High-Speed SSD",
+        "display": "14.2-inch Liquid Retina XDR (120Hz ProMotion)",
+        "operating_system": "macOS",
+        "special_feature": "Dedicated AI Neural Engine & Hardware Ray Tracing",
+        "weight": "1.61 kg"
+      },
+      "tags": ["apple", "macbook pro", "m5 max", "workstation", "ai powerhouse"],
+      "variants": [
+        {
+          "sku": "APL-MBP14-M5M-BLK",
+          "color": "Space Black",
+          "storage_config": "2TB SSD",
+          "stock": 5
+        },
+        {
+          "sku": "APL-MBP14-M5M-SLV",
+          "color": "Silver",
+          "storage_config": "2TB SSD",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "PROD-106",
+      "name": "Lenovo V15 G4 AMD Ryzen 5 7520U 15.6″ FHD Business Laptop",
+      "slug": "lenovo-v15-g4-amd-ryzen-5-7520u-16gb-ddr5-512gb-ssd-arctic-grey",
+      "category": "Business & Productivity",
+      "price": 54890,
+      "original_price": 65999,
+      "discount_percentage": 17,
+      "rating": 4.0,
+      "reviews_count": 497,
+      "in_stock": true,
+      "stock_quantity": 60,
+      "images": [
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "The Lenovo V15 G4 combines snappy AMD Ryzen 5 performance with blazing 16GB DDR5 5500MHz memory. Delivers clear acoustics via Dolby Audio and durable business-grade construction backed by 1-year onsite brand warranty.",
+      "attributes": {
+        "processor": "AMD Ryzen 5 7520U",
+        "ram": "16GB DDR5 5500MHz",
+        "storage": "512GB PCIe NVMe SSD",
+        "display": "15.6-inch FHD (1920x1080)",
+        "operating_system": "Windows 11 Home",
+        "audio": "Dolby Audio Stereo Speakers",
+        "weight": "1.65 kg"
+      },
+      "tags": ["lenovo", "v15 g4", "ddr5 ram", "ryzen 5", "productivity"],
+      "variants": [
+        {
+          "sku": "LNV-V15-7520U-GRY",
+          "color": "Arctic Grey",
+          "storage_config": "512GB SSD",
+          "stock": 60
+        }
+      ]
+    },
+    {
+      "id": "PROD-107",
+      "name": "ASUS Chromebook CX1405 Intel N50 Thin & Light Laptop",
+      "slug": "asus-chromebook-cx1405-intel-n50-8gb-ram-128gb-ssd-chrome-os",
+      "category": "Budget Laptops",
+      "price": 23990,
+      "original_price": 51990,
+      "discount_percentage": 54,
+      "rating": 3.5,
+      "reviews_count": 14,
+      "in_stock": true,
+      "stock_quantity": 45,
+      "images": [
+        "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "An ultra-budget, lightweight Chrome OS laptop tailored for cloud workflows, students, and essential browsing. Features an Intel N50 processor, instant-on boot capabilities, and up to 10 hours of battery longevity.",
+      "attributes": {
+        "processor": "Intel N50 Quad Core",
+        "ram": "8GB LPDDR5",
+        "storage": "128GB SSD",
+        "display": "14.0-inch FHD Anti-Glare",
+        "operating_system": "Chrome OS",
+        "battery": "42WHrs Multi-Day Battery",
+        "weight": "1.39 kg"
+      },
+      "tags": ["asus", "chromebook", "cloud computing", "student laptop", "budget"],
+      "variants": [
+        {
+          "sku": "ASU-CX1405-GRY",
+          "color": "Pure Grey",
+          "storage_config": "128GB SSD",
+          "stock": 45
+        }
+      ]
+    },
+    {
+      "id": "PROD-108",
+      "name": "HP OmniBook 5 OLED Snapdragon X Processor AI Laptop",
+      "slug": "hp-omnibook-5-oled-snapdragon-x-16gb-512gb-ssd-2k-silver",
+      "category": "Premium AI & Performance",
+      "price": 75990,
+      "original_price": 83704,
+      "discount_percentage": 9,
+      "rating": 4.2,
+      "reviews_count": 120,
+      "in_stock": true,
+      "stock_quantity": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Equipped with Qualcomm's 45 TOPS NPU Snapdragon X architecture and a vibrant 2K OLED display. Delivers transformative on-device AI performance with ultra-thin portability and true multi-day battery endurance.",
+      "attributes": {
+        "processor": "Snapdragon X Plus (45 TOPS AI NPU)",
+        "ram": "16GB LPDDR5x",
+        "storage": "512GB PCIe Gen4 SSD",
+        "display": "14.0-inch 2K OLED Vivid Panel",
+        "operating_system": "Windows 11 Home Copilot+ PC",
+        "weight": "1.29 kg"
+      },
+      "tags": ["hp", "omnibook", "snapdragon x", "copilot pc", "oled display", "ai laptop"],
+      "variants": [
+        {
+          "sku": "HP-OMNI5-SNPX-SLV",
+          "color": "Glacier Silver",
+          "storage_config": "512GB SSD",
+          "stock": 22
+        }
+      ]
+    },
+    {
+      "id": "PROD-109",
+      "name": "HP 15 Intel Core Ultra 5 125H AI-Powered FHD Laptop",
+      "slug": "hp-15-intel-core-ultra-5-125h-16gb-ddr5-1tb-ssd-silver",
+      "category": "Premium AI & Performance",
+      "price": 77990,
+      "original_price": 86451,
+      "discount_percentage": 10,
+      "rating": 3.9,
+      "reviews_count": 413,
+      "in_stock": true,
+      "stock_quantity": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Experience next-generation hybrid compute with the Intel Core Ultra 5 125H CPU and integrated Intel Arc graphics. Boasts 1TB high-capacity NVMe storage, 16GB DDR5 memory, and dedicated NPU hardware for accelerated AI workflows.",
+      "attributes": {
+        "processor": "Intel Core Ultra 5 125H (14 Cores, AI Boost NPU)",
+        "ram": "16GB DDR5",
+        "storage": "1TB PCIe NVMe M.2 SSD",
+        "display": "15.6-inch FHD IPS (1920x1080)",
+        "graphics": "Intel Arc Graphics",
+        "operating_system": "Windows 11 Home + Office 2024",
+        "weight": "1.65 kg"
+      },
+      "tags": ["hp", "core ultra 5", "intel arc", "ai powered", "1tb ssd"],
+      "variants": [
+        {
+          "sku": "HP-15-FD1354TU-SLV",
+          "color": "Natural Silver",
+          "storage_config": "1TB SSD",
+          "stock": 35
+        }
+      ]
+    },
+    {
+      "id": "PROD-110",
+      "name": "Lenovo IdeaPad Slim 3 AMD Ryzen 7 8840HS AI PC",
+      "slug": "lenovo-ideapad-slim-3-amd-ryzen-7-8840hs-24gb-ram-1tb-ssd-wuxga",
+      "category": "Premium AI & Performance",
+      "price": 87990,
+      "original_price": 94890,
+      "discount_percentage": 7,
+      "rating": 4.1,
+      "reviews_count": 89,
+      "in_stock": true,
+      "stock_quantity": 18,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": "Engineered for intense developer workloads and creative design, this AI PC features AMD Ryzen 7 8840HS with Ryzen AI, an extraordinary 24GB RAM capacity, and a sharp 15.3-inch 16:10 WUXGA IPS panel.",
+      "attributes": {
+        "processor": "AMD Ryzen 7 8840HS (8 Cores, 16 Threads, AMD Ryzen AI)",
+        "ram": "24GB DDR5",
+        "storage": "1TB PCIe NVMe SSD",
+        "display": "15.3-inch WUXGA IPS (1920x1200, 300 nits)",
+        "graphics": "AMD Radeon 780M Graphics",
+        "operating_system": "Windows 11 Home + Office 2024",
+        "weight": "1.60 kg"
+      },
+      "tags": ["lenovo", "ideapad slim 3", "ryzen 7", "24gb ram", "ai pc", "wuxga"],
+      "variants": [
+        {
+          "sku": "LNV-IPS3-8840HS-GRY",
+          "color": "Arctic Grey",
+          "storage_config": "1TB SSD",
+          "stock": 18
+        }
+      ]
+    }
+  ]
+}

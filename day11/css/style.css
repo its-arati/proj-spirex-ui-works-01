@@ -1,0 +1,57 @@
+
+.card {
+    max-width: 18rem;
+    padding: 20px;
+    margin: 0.5em;
+}
+
+.card img {
+    max-width: 16rem;
+    max-height: 10em;
+    align-self: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text {
+    text-overflow: ellipsis;
+}
+
+.card .btn {
+    align-items: end;
+}
+
+.cart-section {
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 240px;
+    border: 1px solid gray;
+    box-shadow: -2px 2px 8px rgba(66, 66, 66, 0.798);
+    height: 100vh;
+
+    background-color: white;
+    z-index: 199;
+
+    /* Smooth sliding effect */
+    transition: transform 0.25s ease-in-out, visibility 0.5s;
+
+    /* Start hidden and pushed off-screen to the left */
+    transform: translateX(100%);
+    visibility: hidden;
+}
+
+.open {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.cart-item {
+    img {
+        max-width: 4em;
+    }
+}

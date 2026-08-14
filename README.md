@@ -36,3 +36,5 @@ Current task pages:
 - [Day 09 page](day09/index.html)
 - [Day 10 task README](day10/README.md)
 - [Day 10 page](day10/index.html)
+- [Day 11 task README](day11/README.md)
+- [Day 11 page](day11/index.html)
