@@ -1,0 +1,94 @@
+{
+  "paragraphs": [
+    {
+      "id": 1,
+      "title": "Morning Routine",
+      "category": "Daily Life",
+      "difficulty": "easy",
+      "text": "A good morning routine can help you start the day with energy and focus. Many people begin their morning by drinking water, having a healthy breakfast, and planning their important tasks. Spending a few quiet minutes before work can also improve concentration and reduce stress.",
+      "wordCount": 55,
+      "estimatedTimeSeconds": 83
+    },
+    {
+      "id": 2,
+      "title": "Learning Technology",
+      "category": "Technology",
+      "difficulty": "easy",
+      "text": "Technology has changed the way people learn, work, and communicate. Students can now access online courses, digital books, and educational videos from almost anywhere. Learning new technical skills requires regular practice, patience, and a willingness to understand mistakes instead of being afraid of them.",
+      "wordCount": 52,
+      "estimatedTimeSeconds": 78
+    },
+    {
+      "id": 3,
+      "title": "Healthy Habits",
+      "category": "Health",
+      "difficulty": "easy",
+      "text": "Healthy habits are built through small actions repeated every day. Eating balanced meals, drinking enough water, sleeping well, and staying physically active can improve overall health. It is not necessary to change everything at once. Simple and consistent improvements can create meaningful results over time.",
+      "wordCount": 48,
+      "estimatedTimeSeconds": 72
+    },
+    {
+      "id": 4,
+      "title": "The Importance of Practice",
+      "category": "Education",
+      "difficulty": "medium",
+      "text": "Practice plays an important role in developing any skill. A beginner may find a task difficult at first, but repeated effort gradually improves confidence and accuracy. The key is to practice regularly and pay attention to mistakes. Over time, activities that once required careful thought can become natural and automatic.",
+      "wordCount": 53,
+      "estimatedTimeSeconds": 80
+    },
+    {
+      "id": 5,
+      "title": "Modern Web Development",
+      "category": "Technology",
+      "difficulty": "medium",
+      "text": "Modern web applications are often built using a combination of HTML, CSS, and JavaScript. HTML provides the structure of a webpage, CSS controls its appearance, and JavaScript adds interaction and dynamic behavior. Developers can also use frameworks and libraries to build larger applications more efficiently while maintaining reusable and organized code.",
+      "wordCount": 55,
+      "estimatedTimeSeconds": 83
+    },
+    {
+      "id": 6,
+      "title": "Working with Data",
+      "category": "Programming",
+      "difficulty": "medium",
+      "text": "Data is an important part of almost every modern application. Programs collect, process, store, and display information based on the needs of their users. Developers must understand how data is structured and how it moves through an application. Good data management can make software faster, more reliable, and easier to maintain.",
+      "wordCount": 55,
+      "estimatedTimeSeconds": 83
+    },
+    {
+      "id": 7,
+      "title": "Cloud Computing",
+      "category": "Cloud Technology",
+      "difficulty": "medium",
+      "text": "Cloud computing allows organizations to access computing resources through the internet instead of maintaining all hardware themselves. Servers, databases, storage, and networking services can be created when needed and scaled according to demand. This approach helps businesses reduce infrastructure costs while making their applications more flexible and available.",
+      "wordCount": 52,
+      "estimatedTimeSeconds": 78
+    },
+    {
+      "id": 8,
+      "title": "Software Development",
+      "category": "Programming",
+      "difficulty": "hard",
+      "text": "Software development involves more than writing code. Developers need to understand requirements, design appropriate solutions, manage data, test different components, and maintain applications after they are released. Effective development also requires communication and collaboration because complex software is usually created by teams with different responsibilities and areas of expertise.",
+      "wordCount": 55,
+      "estimatedTimeSeconds": 83
+    },
+    {
+      "id": 9,
+      "title": "Artificial Intelligence",
+      "category": "Artificial Intelligence",
+      "difficulty": "hard",
+      "text": "Artificial intelligence enables computers to perform tasks that traditionally require human intelligence. Machine learning systems can identify patterns in large amounts of data and use those patterns to make predictions. However, building reliable AI systems requires high quality data, careful evaluation, appropriate algorithms, and an understanding of the limitations of automated decisions.",
+      "wordCount": 54,
+      "estimatedTimeSeconds": 81
+    },
+    {
+      "id": 10,
+      "title": "Building a Career",
+      "category": "Career",
+      "difficulty": "hard",
+      "text": "Building a successful technology career requires continuous learning and practical experience. Programming languages and tools change over time, so professionals need to keep improving their knowledge. Working on real projects can strengthen problem solving skills and create opportunities to apply theoretical concepts. Consistency, curiosity, communication, and adaptability are valuable qualities for long term growth.",
+      "wordCount": 56,
+      "estimatedTimeSeconds": 84
+    }
+  ]
+}
