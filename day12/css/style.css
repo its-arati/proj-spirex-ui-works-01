@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://www.amd.com/content/dam/amd/en/images/illustrations/homepage/2026/4956600-homepage-logo-wall-background-enterprise-amd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.root-container {
+    background: rgba(216, 244, 255, 0.127);
+    padding: 20px;
+    min-height: 60vh;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+h1 {
+    text-align: center;
+}
+
+.content {
+    border: 2px solid rgba(255, 160, 160, 0.93);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background:rgb(255, 240, 220);
+    font-size: 1.4em;
+    font-weight: 500;
+    margin: 20px;
+}
+.typing-content {
+    border: 1px solid gray;
+    background: lightgoldenrodyellow;
+    min-height: 5em;
+    width: 90%;
+    align-self: center;
+    padding: 0.2em 0.8em;
+    font-size: 1.5em;
+}
+.typing-content:focus {
+    box-shadow: 1px 1px 1.5em 0.3em rgba(255, 255, 255, 0.909);
+}
+button#computeResult {
+    max-width: 20px;
+}
+
+.input-area {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-card {
+    animation: result-enter 0.35s ease-out;
+}
+
+@keyframes result-enter {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
