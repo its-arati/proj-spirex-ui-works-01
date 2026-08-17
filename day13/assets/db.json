@@ -1,0 +1,430 @@
+{
+  "analytics": {
+    "totalApplied": 48,
+    "interviewing": 5,
+    "offersReceived": 2,
+    "rejections": 12,
+    "conversionRatePercentage": 10.4,
+    "applicationsByMonth": [
+      { "month": "June", "count": 12 },
+      { "month": "July", "count": 22 },
+      { "month": "August", "count": 14 }
+    ],
+    "funnelBreakdown": {
+      "screening": 18,
+      "technicalRound": 9,
+      "managerRound": 6,
+      "hrRound": 3
+    }
+  },
+  "userProfile": {
+    "name": "Km Arati Maurya",
+    "role": "Full Stack Engineer",
+    "experienceYears": 4,
+    "preferences": {
+      "desiredSalary": "₹18,000,000 - ₹24,000,000",
+      "workMode": "Remote",
+      "locations": ["Bengaluru", "Hyderabad", "Remote"]
+    }
+  },
+  "applications": [
+    {
+      "id": "job_001",
+      "companyName": "TechCorp Global",
+      "title": "Senior Frontend Developer",
+      "department": "Engineering",
+      "location": "Bengaluru",
+      "salaryOffered": "₹2,200,000",
+      "status": "Interviewing",
+      "appliedDate": "2026-07-12",
+      "lastUpdated": "2026-08-14",
+      "stage": "TechnicalRound",
+      "notes": "Completed the coding assignment. System architecture round scheduled next.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-07-12", "completed": true },
+        { "stage": "Screening", "date": "2026-07-18", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-08-05", "completed": true },
+        { "stage": "ManagerRound", "date": "2026-08-19", "completed": false }
+      ]
+    },
+    {
+      "id": "job_002",
+      "companyName": "Fintech ScaleUp",
+      "title": "Full Stack Engineer",
+      "department": "Engineering",
+      "location": "Remote",
+      "salaryOffered": "₹1,800,000",
+      "status": "Offer",
+      "appliedDate": "2026-06-28",
+      "lastUpdated": "2026-08-10",
+      "stage": "HRRound",
+      "notes": "Received written offer letter. Negotiating relocation allowance bonuses.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-06-28", "completed": true },
+        { "stage": "Screening", "date": "2026-07-02", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-07-15", "completed": true },
+        { "stage": "ManagerRound", "date": "2026-07-28", "completed": true },
+        { "stage": "HRRound", "date": "2026-08-10", "completed": true }
+      ]
+    },
+    {
+      "id": "job_003",
+      "companyName": "Innovate AI",
+      "title": "Machine Learning Engineer",
+      "department": "DataScience",
+      "location": "Hyderabad",
+      "salaryOffered": null,
+      "status": "Applied",
+      "appliedDate": "2026-08-15",
+      "lastUpdated": "2026-08-15",
+      "stage": "Screening",
+      "notes": "Applied via referral link. Awaiting initial internal recruiter screening.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-08-15", "completed": true },
+        { "stage": "Screening", "date": "2026-08-22", "completed": false }
+      ]
+    },
+    {
+      "id": "job_004",
+      "companyName": "CyberBlock Inc",
+      "title": "Backend Architect",
+      "department": "Security",
+      "location": "Remote",
+      "salaryOffered": "₹3,000,000",
+      "status": "Rejected",
+      "appliedDate": "2026-06-10",
+      "lastUpdated": "2026-07-01",
+      "stage": "TechnicalRound",
+      "notes": "Position closed due to global restructuring budget constraints.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-06-10", "completed": true },
+        { "stage": "Screening", "date": "2026-06-14", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-06-25", "completed": true }
+      ]
+    },
+    {
+      "id": "job_005",
+      "companyName": "PixelForge Studios",
+      "title": "UI Engineer",
+      "department": "Design",
+      "location": "Pune",
+      "salaryOffered": "₹1,500,000",
+      "status": "Applied",
+      "appliedDate": "2026-08-10",
+      "lastUpdated": "2026-08-10",
+      "stage": "Applied",
+      "notes": "Applied directly through careers page. Portfolio link included in application.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-08-10", "completed": true },
+        { "stage": "Screening", "date": "2026-08-20", "completed": false }
+      ]
+    },
+    {
+      "id": "job_006",
+      "companyName": "CloudNine Systems",
+      "title": "React Developer",
+      "department": "Engineering",
+      "location": "Chennai",
+      "salaryOffered": "₹1,650,000",
+      "status": "Interviewing",
+      "appliedDate": "2026-07-20",
+      "lastUpdated": "2026-08-12",
+      "stage": "ManagerRound",
+      "notes": "Cleared two technical rounds. Manager round focused on system design basics.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-07-20", "completed": true },
+        { "stage": "Screening", "date": "2026-07-25", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-08-08", "completed": true },
+        { "stage": "ManagerRound", "date": "2026-08-20", "completed": false }
+      ]
+    },
+    {
+      "id": "job_007",
+      "companyName": "Quantum Retail",
+      "title": "Junior Frontend Developer",
+      "department": "Engineering",
+      "location": "Kolkata",
+      "salaryOffered": "₹900,000",
+      "status": "Offer",
+      "appliedDate": "2026-07-01",
+      "lastUpdated": "2026-08-09",
+      "stage": "HRRound",
+      "notes": "Offer received. Salary lower than expectation but strong learning environment.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-07-01", "completed": true },
+        { "stage": "Screening", "date": "2026-07-05", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-07-18", "completed": true },
+        { "stage": "HRRound", "date": "2026-08-09", "completed": true }
+      ]
+    },
+    {
+      "id": "job_008",
+      "companyName": "NimbusEdge Technologies",
+      "title": "Frontend Developer Intern",
+      "department": "Engineering",
+      "location": "Remote",
+      "salaryOffered": "₹40,000/month",
+      "status": "Rejected",
+      "appliedDate": "2026-05-15",
+      "lastUpdated": "2026-06-02",
+      "stage": "Screening",
+      "notes": "Did not proceed past resume screening. Feedback indicated preference for candidates with prior internship experience.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-05-15", "completed": true },
+        { "stage": "Screening", "date": "2026-06-02", "completed": true }
+      ]
+    },
+    {
+      "id": "job_009",
+      "companyName": "GreenLeaf Analytics",
+      "title": "Data Visualization Engineer",
+      "department": "DataScience",
+      "location": "Bengaluru",
+      "salaryOffered": "₹2,000,000",
+      "status": "Interviewing",
+      "appliedDate": "2026-07-25",
+      "lastUpdated": "2026-08-13",
+      "stage": "TechnicalRound",
+      "notes": "Take-home D3.js assignment submitted, awaiting review before live technical round.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-07-25", "completed": true },
+        { "stage": "Screening", "date": "2026-07-30", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-08-18", "completed": false }
+      ]
+    },
+    {
+      "id": "job_010",
+      "companyName": "Skyline Mobility",
+      "title": "Frontend Engineer",
+      "department": "Engineering",
+      "location": "Gurugram",
+      "salaryOffered": "₹1,750,000",
+      "status": "Applied",
+      "appliedDate": "2026-08-13",
+      "lastUpdated": "2026-08-13",
+      "stage": "Applied",
+      "notes": "Applied through LinkedIn Easy Apply. Role focuses on internal fleet-management dashboards.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-08-13", "completed": true },
+        { "stage": "Screening", "date": "2026-08-21", "completed": false }
+      ]
+    },
+    {
+      "id": "job_011",
+      "companyName": "Vertex Health Systems",
+      "title": "UI/UX Developer",
+      "department": "Design",
+      "location": "Remote",
+      "salaryOffered": "₹1,900,000",
+      "status": "Withdrawn",
+      "appliedDate": "2026-06-05",
+      "lastUpdated": "2026-06-20",
+      "stage": "Screening",
+      "notes": "Withdrew application after accepting a different offer with better growth prospects.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-06-05", "completed": true },
+        { "stage": "Screening", "date": "2026-06-20", "completed": true }
+      ]
+    },
+    {
+      "id": "job_012",
+      "companyName": "BrightPath EdTech",
+      "title": "Frontend Developer",
+      "department": "Engineering",
+      "location": "Noida",
+      "salaryOffered": "₹1,400,000",
+      "status": "Interviewing",
+      "appliedDate": "2026-07-30",
+      "lastUpdated": "2026-08-15",
+      "stage": "TechnicalRound",
+      "notes": "First technical round covered React hooks and state management deep-dive questions.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-07-30", "completed": true },
+        { "stage": "Screening", "date": "2026-08-04", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-08-15", "completed": true },
+        { "stage": "ManagerRound", "date": "2026-08-25", "completed": false }
+      ]
+    },
+    {
+      "id": "job_013",
+      "companyName": "Orbital Commerce",
+      "title": "Software Engineer - Frontend",
+      "department": "Engineering",
+      "location": "Mumbai",
+      "salaryOffered": "₹2,100,000",
+      "status": "Applied",
+      "appliedDate": "2026-08-16",
+      "lastUpdated": "2026-08-16",
+      "stage": "Applied",
+      "notes": "Applied to their e-commerce platform team; referenced UrbanCart project in cover letter.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-08-16", "completed": true },
+        { "stage": "Screening", "date": "2026-08-25", "completed": false }
+      ]
+    },
+    {
+      "id": "job_014",
+      "companyName": "Redwood Financial Services",
+      "title": "Associate Software Engineer",
+      "department": "Engineering",
+      "location": "Hyderabad",
+      "salaryOffered": "₹1,600,000",
+      "status": "Rejected",
+      "appliedDate": "2026-06-18",
+      "lastUpdated": "2026-07-10",
+      "stage": "ManagerRound",
+      "notes": "Rejected after manager round; feedback cited need for more hands-on production experience.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-06-18", "completed": true },
+        { "stage": "Screening", "date": "2026-06-22", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-07-01", "completed": true },
+        { "stage": "ManagerRound", "date": "2026-07-10", "completed": true }
+      ]
+    },
+    {
+      "id": "job_015",
+      "companyName": "Lumen Interactive",
+      "title": "JavaScript Developer",
+      "department": "Engineering",
+      "location": "Remote",
+      "salaryOffered": "₹1,350,000",
+      "status": "Interviewing",
+      "appliedDate": "2026-08-01",
+      "lastUpdated": "2026-08-16",
+      "stage": "Screening",
+      "notes": "Initial recruiter call completed. Awaiting scheduling of technical assessment.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-08-01", "completed": true },
+        { "stage": "Screening", "date": "2026-08-16", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-08-27", "completed": false }
+      ]
+    },
+    {
+      "id": "job_016",
+      "companyName": "Meridian Logistics",
+      "title": "Web Developer",
+      "department": "IT",
+      "location": "Ahmedabad",
+      "salaryOffered": "₹1,100,000",
+      "status": "Applied",
+      "appliedDate": "2026-08-09",
+      "lastUpdated": "2026-08-09",
+      "stage": "Applied",
+      "notes": "Applied through a campus placement drive listing shared by MCA department.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-08-09", "completed": true },
+        { "stage": "Screening", "date": "2026-08-18", "completed": false }
+      ]
+    },
+    {
+      "id": "job_017",
+      "companyName": "Solstice Gaming",
+      "title": "Frontend Engineer - Web Games",
+      "department": "Engineering",
+      "location": "Bengaluru",
+      "salaryOffered": "₹1,950,000",
+      "status": "Interviewing",
+      "appliedDate": "2026-07-22",
+      "lastUpdated": "2026-08-11",
+      "stage": "TechnicalRound",
+      "notes": "Live-coding round involved building a small canvas-based game mechanic.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-07-22", "completed": true },
+        { "stage": "Screening", "date": "2026-07-28", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-08-11", "completed": true },
+        { "stage": "ManagerRound", "date": "2026-08-22", "completed": false }
+      ]
+    },
+    {
+      "id": "job_018",
+      "companyName": "Harbor Point Consulting",
+      "title": "Junior Web Developer",
+      "department": "Engineering",
+      "location": "Remote",
+      "salaryOffered": "₹850,000",
+      "status": "Offer",
+      "appliedDate": "2026-06-30",
+      "lastUpdated": "2026-08-05",
+      "stage": "HRRound",
+      "notes": "Offer letter received; company open to a two-week joining date extension.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-06-30", "completed": true },
+        { "stage": "Screening", "date": "2026-07-04", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-07-16", "completed": true },
+        { "stage": "HRRound", "date": "2026-08-05", "completed": true }
+      ]
+    },
+    {
+      "id": "job_019",
+      "companyName": "Falcon Robotics",
+      "title": "Dashboard UI Developer",
+      "department": "Engineering",
+      "location": "Pune",
+      "salaryOffered": null,
+      "status": "Applied",
+      "appliedDate": "2026-08-14",
+      "lastUpdated": "2026-08-14",
+      "stage": "Applied",
+      "notes": "Role involves building monitoring dashboards for robotics fleet telemetry data.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-08-14", "completed": true },
+        { "stage": "Screening", "date": "2026-08-23", "completed": false }
+      ]
+    },
+    {
+      "id": "job_020",
+      "companyName": "Ashford Media Group",
+      "title": "Frontend Developer",
+      "department": "Engineering",
+      "location": "Delhi",
+      "salaryOffered": "₹1,300,000",
+      "status": "Rejected",
+      "appliedDate": "2026-05-28",
+      "lastUpdated": "2026-06-15",
+      "stage": "TechnicalRound",
+      "notes": "Did not pass technical round; interviewer noted gaps in CSS layout fundamentals.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-05-28", "completed": true },
+        { "stage": "Screening", "date": "2026-06-02", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-06-15", "completed": true }
+      ]
+    },
+    {
+      "id": "job_021",
+      "companyName": "Pinnacle Cloud Labs",
+      "title": "Software Development Engineer I",
+      "department": "Engineering",
+      "location": "Hyderabad",
+      "salaryOffered": "₹2,400,000",
+      "status": "Interviewing",
+      "appliedDate": "2026-07-15",
+      "lastUpdated": "2026-08-16",
+      "stage": "HRRound",
+      "notes": "Cleared all technical rounds; final HR discussion focused on compensation structure.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-07-15", "completed": true },
+        { "stage": "Screening", "date": "2026-07-20", "completed": true },
+        { "stage": "TechnicalRound", "date": "2026-08-01", "completed": true },
+        { "stage": "ManagerRound", "date": "2026-08-10", "completed": true },
+        { "stage": "HRRound", "date": "2026-08-19", "completed": false }
+      ]
+    },
+    {
+      "id": "job_022",
+      "companyName": "Coral Bay Startups",
+      "title": "Frontend Developer (React)",
+      "department": "Engineering",
+      "location": "Remote",
+      "salaryOffered": "₹1,200,000",
+      "status": "Applied",
+      "appliedDate": "2026-08-16",
+      "lastUpdated": "2026-08-16",
+      "stage": "Applied",
+      "notes": "Early-stage startup; applied after seeing job post shared in a frontend developer community.",
+      "timeline": [
+        { "stage": "Applied", "date": "2026-08-16", "completed": true },
+        { "stage": "Screening", "date": "2026-08-24", "completed": false }
+      ]
+    }
+  ]
+}
