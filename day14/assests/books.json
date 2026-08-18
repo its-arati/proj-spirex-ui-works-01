@@ -1,0 +1,259 @@
+[
+    {
+        "id": 1,
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "isbn": "9780441013593",
+        "genre": "Sci-fi",
+        "year": 1965,
+        "status": "Read",
+        "rating": 5,
+        "callNumber": "SF-HER-01",
+        "description": "A sweeping story of politics, prophecy, and survival on the desert planet Arrakis.",
+        "tags": [
+            "classic",
+            "award-winning"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "The Bell Jar",
+        "author": "Sylvia Plath",
+        "isbn": "9780061148514",
+        "genre": "Fiction",
+        "year": 1963,
+        "status": "Unread",
+        "rating": 4,
+        "callNumber": "FIC-PLA-14",
+        "description": "A young woman's descent into mental illness, told with piercing clarity.",
+        "tags": [
+            "classic"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Sapiens",
+        "author": "Yuval Noah Harari",
+        "isbn": "9780062316097",
+        "genre": "Non-fiction",
+        "year": 2011,
+        "status": "Read",
+        "rating": 5,
+        "callNumber": "NF-HAR-22",
+        "description": "A brief history of humankind, from the Stone Age to the modern economy.",
+        "tags": [
+            "book-club"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Steve Jobs",
+        "author": "Walter Isaacson",
+        "isbn": "9781451648539",
+        "genre": "Biography",
+        "year": 2011,
+        "status": "Read",
+        "rating": 4,
+        "callNumber": "BIO-ISA-07",
+        "description": "The definitive biography of Apple's co-founder, based on exclusive interviews.",
+        "tags": []
+    },
+    {
+        "id": 5,
+        "title": "Neuromancer",
+        "author": "William Gibson",
+        "isbn": "9780441569595",
+        "genre": "Sci-fi",
+        "year": 1984,
+        "status": "Unread",
+        "rating": 4,
+        "callNumber": "SF-GIB-03",
+        "description": "The novel that coined 'cyberspace' and launched the cyberpunk genre.",
+        "tags": [
+            "classic"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Educated",
+        "author": "Tara Westover",
+        "isbn": "9780399590504",
+        "genre": "Biography",
+        "year": 2018,
+        "status": "Read",
+        "rating": 5,
+        "callNumber": "BIO-WES-19",
+        "description": "A memoir of a woman who leaves her survivalist family to pursue education.",
+        "tags": [
+            "award-winning"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "The Midnight Library",
+        "author": "Matt Haig",
+        "isbn": "9780525559474",
+        "genre": "Fiction",
+        "year": 2020,
+        "status": "Unread",
+        "rating": 4,
+        "callNumber": "FIC-HAI-11",
+        "description": "Between life and death lies a library of infinite alternate lives.",
+        "tags": []
+    },
+    {
+        "id": 8,
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "isbn": "9780735211292",
+        "genre": "Non-fiction",
+        "year": 2018,
+        "status": "Read",
+        "rating": 5,
+        "callNumber": "NF-CLE-05",
+        "description": "A practical guide to building good habits and breaking bad ones.",
+        "tags": [
+            "book-club"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "isbn": "9780593135204",
+        "genre": "Sci-fi",
+        "year": 2021,
+        "status": "Unread",
+        "rating": 5,
+        "callNumber": "SF-WEI-09",
+        "description": "A lone astronaut must save humanity from extinction, armed only with science.",
+        "tags": []
+    },
+    {
+        "id": 10,
+        "title": "Becoming",
+        "author": "Michelle Obama",
+        "isbn": "9781524763138",
+        "genre": "Biography",
+        "year": 2018,
+        "status": "Read",
+        "rating": 5,
+        "callNumber": "BIO-OBA-02",
+        "description": "The former First Lady's memoir of identity, ambition, and belonging.",
+        "tags": [
+            "award-winning"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Normal People",
+        "author": "Sally Rooney",
+        "isbn": "9781984822178",
+        "genre": "Fiction",
+        "year": 2018,
+        "status": "Unread",
+        "rating": 4,
+        "callNumber": "FIC-ROO-16",
+        "description": "The complicated relationship between two Irish teenagers into their twenties.",
+        "tags": []
+    },
+    {
+        "id": 12,
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "isbn": "9780374533557",
+        "genre": "Non-fiction",
+        "year": 2011,
+        "status": "Read",
+        "rating": 4,
+        "callNumber": "NF-KAH-08",
+        "description": "A landmark exploration of the two systems that drive human decision-making.",
+        "tags": [
+            "book-club"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "isbn": "9780553418026",
+        "genre": "Sci-fi",
+        "year": 2011,
+        "status": "Unread",
+        "rating": 5,
+        "callNumber": "SF-WEI-04",
+        "description": "An astronaut stranded on Mars fights to survive using ingenuity and duct tape.",
+        "tags": []
+    },
+    {
+        "id": 14,
+        "title": "Born a Crime",
+        "author": "Trevor Noah",
+        "isbn": "9780399588174",
+        "genre": "Biography",
+        "year": 2016,
+        "status": "Read",
+        "rating": 5,
+        "callNumber": "BIO-NOA-13",
+        "description": "The comedian's memoir of growing up mixed-race in apartheid South Africa.",
+        "tags": [
+            "award-winning"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "isbn": "9780316556347",
+        "genre": "Fiction",
+        "year": 2018,
+        "status": "Unread",
+        "rating": 5,
+        "callNumber": "FIC-MIL-20",
+        "description": "A retelling of Greek mythology through the eyes of the witch Circe.",
+        "tags": [
+            "classic"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Outliers",
+        "author": "Malcolm Gladwell",
+        "isbn": "9780316017930",
+        "genre": "Non-fiction",
+        "year": 2008,
+        "status": "Read",
+        "rating": 4,
+        "callNumber": "NF-GLA-06",
+        "description": "An investigation into what really makes high achievers different.",
+        "tags": []
+    },
+    {
+        "id": 17,
+        "title": "Klara and the Sun",
+        "author": "Kazuo Ishiguro",
+        "isbn": "9780571364879",
+        "genre": "Sci-fi",
+        "year": 2021,
+        "status": "Unread",
+        "rating": 4,
+        "callNumber": "SF-ISH-15",
+        "description": "An artificial friend observes the world, hoping to be chosen by a child.",
+        "tags": []
+    },
+    {
+        "id": 18,
+        "title": "The Diary of a Young Girl",
+        "author": "Anne Frank",
+        "isbn": "9780553296983",
+        "genre": "Biography",
+        "year": 1947,
+        "status": "Read",
+        "rating": 5,
+        "callNumber": "BIO-FRA-10",
+        "description": "The diary Anne Frank kept while hiding from Nazi persecution in Amsterdam.",
+        "tags": [
+            "classic"
+        ]
+    }
+]
