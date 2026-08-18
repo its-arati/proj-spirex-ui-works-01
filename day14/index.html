@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/@yaireo/tagify/dist/tagify.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-stacks py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-book-open"></i>My Library</a>
+
+            <div class="collapse navbar-collapse" id="navMain">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+                    <li class="nav-item"><a class="nav-link active" href="#" id="browseNav">Browse</a></li>
+                    <li class="nav-item mt-2 mt-lg-0">
+                        <button class="btn btn-brass btn-sm px-3" id="openAddBtn">
+                            <i class="fa-solid fa-plus"></i> Add book
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-4">
+
+        <div class="catalog-bar d-flex flex-column flex-md-row align-items-stretch p-2 mb-3">
+            <div class="d-flex align-items-center flex-grow-1 px-2">
+                <i class="fa-solid fa-magnifying-glass me-2" style="color:#231cf2;"></i>
+                <input type="text" class="form-control" id="searchInput"
+                    placeholder="Search by title, author, or ISBN...">
+            </div>
+            <div class="divider d-none d-md-block my-1"></div>
+            <div class="px-2" style="min-width:120px;">
+                <select class="form-select" id="genreFilter">
+                    <option value="all">All genres</option>
+                </select>
+            </div>
+            <div class="divider d-none d-md-block my-1"></div>
+            <div class="px-2" style="min-width:120px;">
+                <select class="form-select" id="statusFilter">
+                    <option value="all">Any status</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="d-flex gap-2 mb-4 flex-wrap" id="filterRow"></div>
+
+        <div class="d-flex justify-content-between align-items-baseline mb-3 flex-wrap gap-2">
+            <div>
+                <div class="section-eyebrow">On the shelf</div>
+                <div class="section-title fs-4" id="resultCount">Loading books…</div>
+            </div>
+            <select class="form-select form-select-sm w-auto" id="sortSelect">
+                <option value="title">Sort: Title A–Z</option>
+                <option value="author">Sort: Author</option>
+                <option value="year">Sort: Newest first</option>
+                <option value="rating">Sort: Highest rated</option>
+            </select>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3" id="bookGrid"></div>
+
+        <div class="text-center py-5 d-none" id="emptyState">
+            <i class="fa-solid fa-book-skull mb-3" style="font-size:2rem;color:#8b8371;"></i>
+            <p class="section-title fs-5 mb-1">No books match your filters</p>
+            <p class="text-secondary small">Try clearing the search or switching genres.</p>
+        </div>
+    </div>
+
+    <div class="modal fade" id="detailsModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-4" id="detailsBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="bookFormModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title section-title" id="formModalTitle">Add a book</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-4 pt-2">
+                    <form id="bookForm">
+                        <input type="hidden" id="bookId">
+                        <div class="mb-3">
+                            <label class="form-label small">Title</label>
+                            <input type="text" class="form-control" id="fTitle" required>
+                            <div class="invalid-feedback">Enter a title.</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label small">Author</label>
+                                <input type="text" class="form-control" id="fAuthor" required>
+                                <div class="invalid-feedback">Enter an author.</div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label small">ISBN</label>
+                                <input type="text" class="form-control" id="fIsbn" required>
+                                <div class="invalid-feedback">Enter an ISBN.</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label small">Genre</label>
+                                <select class="form-select" id="fGenre">
+                                    <option>Fiction</option>
+                                    <option>Non-fiction</option>
+                                    <option>Sci-fi</option>
+                                    <option>Biography</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label small">Status</label>
+                                <select class="form-select" id="fStatus">
+                                    <option>Unread</option>
+                                    <option>Read</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label class="form-label small">Year</label>
+                                <input type="number" class="form-control" id="fYear" min="0" max="2026">
+                            </div>
+
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label small">Tags</label>
+                            <input type="text" class="form-control" id="fTags"
+                                placeholder="e.g. classic, book-club, award-winning">
+                            <div class="form-text">Press enter or comma to add a tag.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label small">Description</label>
+                            <textarea class="form-control" id="fDescription" rows="2"
+                                placeholder="Short summary"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-brass w-100">Save book</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="deleteModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div class="modal-body p-4 text-center">
+                    <i class="fa-solid fa-trash-can mb-3" style="font-size:1.5rem;color:var(--maroon);"></i>
+                    <p class="mb-3">Remove this book from your catalog?</p>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-outline-secondary flex-grow-1" data-bs-dismiss="modal">Cancel</button>
+                        <button class="btn btn-danger flex-grow-1" id="confirmDeleteBtn">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@yaireo/tagify"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
