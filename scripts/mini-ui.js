@@ -4,30 +4,50 @@ function createWatchable(initialValue, watchFields = null) {
 
   const handler = (currentPath = "") => ({
     get(target, prop, receiver) {
-      // Expose the registration hook on the root proxy
       if (!currentPath && prop === "on") {
         return (callback) => { effects.add(callback); return () => effects.delete(callback); };
       }
 
-      const value = Reflect.get(target, prop, receiver);
-      
-      // Intercept mutating array methods
-      if (typeof value === "function" && Array.isArray(target)) {
-        return (...args) => {
-          const oldLength = target.length;
-          const result = value.apply(target, args);
-          if (shouldTrigger(currentPath) && (target.length !== oldLength || ["sort", "reverse"].includes(prop))) {
-            effects.forEach(cb => setTimeout(() => cb(currentPath, value), 0));
-          }
-          return result;
-        };
+      let value;
+      if (target instanceof Set || target instanceof Map) {
+        value = target[prop];
+      } else {
+        value = Reflect.get(target, prop, receiver);
       }
 
-      // Lazy deep proxying
-      if (value !== null && typeof value === "object") {
+      if (typeof value === "function") {
+        const boundFn = value.bind(target);
+        
+        if (target instanceof Set || target instanceof Map) {
+          return (...args) => {
+            const oldSize = target.size;
+            const result = boundFn(...args);
+            if (shouldTrigger(currentPath) && target.size !== oldSize) {
+              effects.forEach(cb => setTimeout(() => cb(currentPath, target), 0));
+            }
+            return result;
+          };
+        }
+
+        if (Array.isArray(target)) {
+          return (...args) => {
+            const oldLength = target.length;
+            const result = boundFn(...args);
+            if (shouldTrigger(currentPath) && (target.length !== oldLength || ["sort", "reverse"].includes(prop))) {
+              effects.forEach(cb => setTimeout(() => cb(currentPath, value), 0));
+            }
+            return result;
+          };
+        }
+
+        return boundFn;
+      }
+
+      if (value !== null && typeof value === "object" && !(value instanceof Set) && !(value instanceof Map)) {
         const nextPath = currentPath ? `${currentPath}.${String(prop)}` : String(prop);
         return new Proxy(value, handler(nextPath));
       }
+      
       return value;
     },
 
@@ -56,27 +76,23 @@ function createWatchable(initialValue, watchFields = null) {
 class WatchableComponent extends HTMLElement {
   constructor() {
     super();
-    // this.attachShadow({ mode: "closed"});
     this._renderFn = null;
     this._state = null;
     this._unhook = null;
     this._renderPending = false;
   }
 
-  // Registers the state and the HTML template literal renderer
   initComponent(watchableState, renderTemplateFn) {
     this._state = watchableState;
     this._renderFn = renderTemplateFn;
 
-    // Hook into the proxy's side-effect system
     if (this._state && typeof this._state.on === "function") {
       this._unhook = this._state.on(() => this.requestUpdate());
     }
 
-    this.requestUpdate(); // Initial render
+    this.requestUpdate(); 
   }
 
-  // Batches updates using setTimeout to run on the next event loop tick
   requestUpdate() {
     if (this._renderPending) return;
     this._renderPending = true;
@@ -87,14 +103,11 @@ class WatchableComponent extends HTMLElement {
     }, 0);
   }
 
-  // Executes the render function and safely mutates the shadow DOM
   render() {
     if (!this._renderFn || !this._state) return;
-    // Pass the state directly to the user's template function
     this.innerHTML = this._renderFn(this._state);
   }
 
-  // Cleanup memory hooks if the element is removed from the DOM
   disconnectedCallback() {
     if (this._unhook) {
       this._unhook();
@@ -122,7 +135,6 @@ class FakeDatastore extends EventTarget {
         );
     }
 
-  // Resolves local cache, falls back to static JSON engine, filters by URI Query, returns final data state
   async defaultValue() {
     const cached = localStorage.getItem(this.storageKey);
     
@@ -134,11 +146,9 @@ class FakeDatastore extends EventTarget {
       this._save();
     }
 
-    // Capture search parameters natively out of the URL context
     const params = new URLSearchParams(window.location.search);
     if ([...params.keys()].length === 0) return this.data;
 
-    // Apply strict key filtering over target collections
     if (Array.isArray(this.data)) {
       return this.data.filter(item => 
         [...params.entries()].every(([key, val]) => String(item[key]) === val)
@@ -147,13 +157,11 @@ class FakeDatastore extends EventTarget {
     return this.data;
   }
 
-  // Traverses nested objects along a string path to resolve properties safely
   get(path) {
     if (!path) return this.data;
     return path.split('.').reduce((acc, part) => (acc && acc[part] !== undefined) ? acc[part] : undefined, this.data);
   }
 
-  // Upserts nested entities or pushes entries into nested structural arrays
   create(path, payload) {
     if (!path) {
       this.data = Array.isArray(this.data) ? [...this.data, payload] : payload;
@@ -173,7 +181,6 @@ class FakeDatastore extends EventTarget {
     return this.get(path);
   }
 
-  // Updates properties or deeply merges targeted structural delta changes (patches)
   update(path, payload) {
     if (!path) {
       this.data = this._isObject(this.data) && this._isObject(payload) ? { ...this.data, ...payload } : payload;
@@ -193,7 +200,6 @@ class FakeDatastore extends EventTarget {
     return this.get(path);
   }
 
-  // Deletes properties from objects or slices elements out of target arrays
   delete(path, indexOrKey = null) {
     if (!path) {
       if (indexOrKey !== null && Array.isArray(this.data)) this.data.splice(indexOrKey, 1);
