@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "question": "Which tag is used to embed an internal (in-page) style sheet in HTML?",
+        "options": [
+            "<css>",
+            "<style>",
+            "<script>",
+            "<link>"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 2,
+        "question": "What is the default display property of a <div> element in CSS?",
+        "options": [
+            "inline",
+            "inline-block",
+            "block",
+            "flex"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": 3,
+        "question": "Which CSS property is used to control the spacing between grid tracks?",
+        "options": [
+            "grid-gap (or gap)",
+            "spacing",
+            "grid-margin",
+            "cell-padding"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": 4,
+        "question": "Which keyword in JavaScript creates a block-scoped, mutable variable?",
+        "options": [
+            "var",
+            "let",
+            "const",
+            "def"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 5,
+        "question": "What does the '===' operator evaluate in JavaScript?",
+        "options": [
+            "Value equality only",
+            "Type conversion equality",
+            "Strict value and type equality",
+            "Reference assignment"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": 6,
+        "question": "Which method is used to remove the last element from an array in JavaScript?",
+        "options": [
+            "shift()",
+            "pop()",
+            "slice()",
+            "unshift()"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 7,
+        "question": "In CSS Flexbox, which property aligns items along the cross axis?",
+        "options": [
+            "justify-content",
+            "align-items",
+            "flex-direction",
+            "align-content"
+        ],
+        "correctIndex": 1
+    },
+    {
+        "id": 8,
+        "question": "Which HTML attribute specifies an alternate text for an image if it cannot be displayed?",
+        "options": [
+            "title",
+            "src",
+            "alt",
+            "description"
+        ],
+        "correctIndex": 2
+    },
+    {
+        "id": 9,
+        "question": "What is the return type of the typeof operator for NaN in JavaScript?",
+        "options": [
+            "number",
+            "NaN",
+            "undefined",
+            "object"
+        ],
+        "correctIndex": 0
+    },
+    {
+        "id": 10,
+        "question": "Which Bootstrap class makes a table responsive across all viewports?",
+        "options": [
+            "table-fluid",
+            "table-auto",
+            "table-responsive",
+            "responsive-table"
+        ],
+        "correctIndex": 2
+    }
+]
