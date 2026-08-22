@@ -148,6 +148,13 @@ body {
     color: black;
 }
 
+.ticket-info {
+    font-size: 0.80rem;
+    font-weight: 500;
+    color: rgb(95, 94, 94);
+    margin-bottom: 14px;
+    line-height: 1.3;
+}
 .ticket-meta {
     font-size: .8rem;
     color: black;

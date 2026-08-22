@@ -71,6 +71,7 @@ function buildEventCard(event) {
       </div>
       <div class="ticket-body">
         <h3 class="ticket-title">${event.title}</h3>
+        <h4 class="ticket-info">${event.description}</h4>
         <p class="ticket-meta"><i class="bi bi-calendar3"></i>${formatDate(event.date)}</p>
         <p class="ticket-meta"><i class="bi bi-geo-alt-fill"></i>${event.venue.city}</p>
       </div>
