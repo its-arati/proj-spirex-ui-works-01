@@ -4,14 +4,12 @@ function createWatchable(initialValue, watchFields = null) {
 
   const handler = (currentPath = "") => ({
     get(target, prop, receiver) {
-      // Expose the registration hook on the root proxy
       if (!currentPath && prop === "on") {
         return (callback) => { effects.add(callback); return () => effects.delete(callback); };
       }
 
       const value = Reflect.get(target, prop, receiver);
       
-      // Intercept mutating array methods
       if (typeof value === "function" && Array.isArray(target)) {
         return (...args) => {
           const oldLength = target.length;
@@ -23,7 +21,6 @@ function createWatchable(initialValue, watchFields = null) {
         };
       }
 
-      // Lazy deep proxying
       if (value !== null && typeof value === "object") {
         const nextPath = currentPath ? `${currentPath}.${String(prop)}` : String(prop);
         return new Proxy(value, handler(nextPath));
