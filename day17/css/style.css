@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240402/pngtree-bright-and-colorful-flowers-lilac-image_15649503.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container {
+    background: rgba(23, 23, 23, 0.401); 
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 900px;
+}
+
+.textarea textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: white;
+    color: grey;
+    resize: none;
+}
+
+.keyboard {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+button {
+    background: rgb(15, 15, 15);
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    min-width: 50px;
+    transition: all 0.2s ease;
+    margin: 3px;
+}
+
+button:hover {
+    background: grey;
+    transform: scale(1.05);
+    box-shadow: 0 0 8px blue;
+}
+
+.delete {
+    min-width: 90px;
+}
+
+.shift {
+    min-width: 70px;
+}
+.space {
+    min-width: 350px;
+}
+.ctrl {
+    min-width: 70px;
+}
+
+.enter {
+    min-width: 75px;
+}
+.upper {
+    text-transform: uppercase;
+}
+
+.keyboard.upper {
+    .btn {
+        text-transform: uppercase;
+    }
+}
