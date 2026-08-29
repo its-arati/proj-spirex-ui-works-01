@@ -248,6 +248,10 @@ body {
   font-size: 1rem;
 }
 
+.btn.rounded {
+  border-radius: 2em;
+}
+
 .heading {
   font-family: var(--font-family);
   font-weight: 800;
