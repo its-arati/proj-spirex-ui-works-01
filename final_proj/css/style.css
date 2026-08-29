@@ -2,7 +2,7 @@
 
 
 :root {
-  --bg-primary: #08090b;
+  --bg-primary: #070b14;
   --bg-surface: #0d0f12;
   --bg-elevated: #111419;
   
@@ -13,7 +13,7 @@
 
   --text-primary: #ffffff;
   --text-secondary: #94a3b8;
-  --text-dim: #64748b;
+  --text-dim: #abb6c6;
 
   --border-subtle: rgba(255, 255, 255, 0.08);
   --border-medium: rgba(255, 255, 255, 0.16);
